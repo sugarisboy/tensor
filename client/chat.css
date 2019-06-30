@@ -1,0 +1,83 @@
+@import 'style.css';
+
+body {
+    flex-direction: column;
+}
+
+#chat {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.entry {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px #333;
+    margin: 20px 40px 0 20px;
+}
+
+.author {
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    min-height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mine {
+    background: lightblue;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.mine .author {
+    flex-direction: row-reverse;
+}
+
+.time {
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+footer {
+    height: 40px;
+    display: flex;
+    padding: 20px;
+}
+
+#text {
+    flex-grow: 1;
+}
+
+#send {
+    margin-left: 20px;
+}
+
+.div-right {
+    display: flex;
+    justify-content: end;
+    width: 300px;
+}
+
+a {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 120px;
+    padding: 5px;
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-decoration: none;;
+    color: gray;
+}
+
+a:hover {
+    background-color: #F07D00;
+    color: #ffffff;
+    border: 2px solid orangered;
+}

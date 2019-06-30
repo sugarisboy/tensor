@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+body {
+    background: #204766;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-size: 24px;
+    border: 2px solid darkgrey;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+button {
+    border: 2px solid orangered;
+    background: #F07D00;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    padding: 0 20px;
+}
+
+button:hover {            
+    text-shadow: darkgray;
+    box-shadow: 4px 4px 4px #333;
+}
+
+.logout {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: auto;
+    width: 120px;
+    padding: 5px;
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
